@@ -54,7 +54,7 @@ I must implement the knowledge acquired here in my projects and studies -->
 
 TODO
 ```
-$api-log mvn spring-boot:run
+$api-logs mvn spring-boot:run
 ```
 
 <!--
