@@ -10,9 +10,9 @@
         </encoder>
     </appender>
 
-    <logger name="br.com.alura.logs.controller.CursoController", level="info" additivity="false">
+    <logger name="br.com.alura.logs.controller.CursoController" level="info" additivity="false">
         <appender-ref ref="FILE" />
-    <logger>
+    </logger>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
