@@ -35,14 +35,13 @@
 <a id="about"></a>
 ## :green_book: About:
 
-TODO
-<!-- This project aims to study observability and Site Reliability Engineering (SRE) techniques. The purpose is purely didactic, aiming to achieve modern logging and monitoring techniques.
+This project aims to study observability and Site Reliability Engineering (SRE) techniques. The purpose is purely didactic, aiming to achieve modern logging and monitoring techniques.
 
 For study and historical reasons, I am keeping the volumes of the Docker images that use this feature, committing them together with the codebase.
 
 The base application made in Java Spring was copied from the course repository and the increments for its observation and monitoring built throughout the [course study track](https://cursos.alura.com.br/formacao-sre)
 
-I must implement the knowledge acquired here in my projects and studies -->
+I must implement the knowledge acquired here in my projects and studies
 
 
 [:arrow_heading_up: back to top](#index)
@@ -52,9 +51,14 @@ I must implement the knowledge acquired here in my projects and studies -->
 <a id="run"></a>
 ## :computer: Run the project
 
-TODO
+
+'''bash
+$ docker compose up -d
+'''
+
 ```
-$api-logs mvn spring-boot:run
+$ cd api-logs
+$ api-logs mvn spring-boot:run
 ```
 
 <!--
