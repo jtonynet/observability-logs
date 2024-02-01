@@ -1,7 +1,7 @@
 <a id="Observability-SRE"></a>
 <img src="./assets/images/layout/header.png">
 
-[<img src="./assets/images/icons/java.svg" width="35px" height="35px" alt="Java Logo" title="Java">](https://www.java.com) [<img src="./assets/images/icons/spring.svg" width="25px" height="25px" alt="Spring Logo" title="Spring">](https://spring.io/) [<img src="./assets/images/icons/docker.svg" width="25px" height="25px" alt="Docker Logo" title="Docker">](https://www.docker.com/) [<img src="./assets/images/icons/ubuntu.svg" width="25px" height="25px Logo" title="Ubunto" alt="Ubunto" />](https://ubuntu.com/) [<img src="./assets/images/icons/github.svg" width="25px" height="25px" alt="GitHub Logo" title="GitHub">](https://github.com/jtonynet) [<img src="./assets/images/icons/postman.svg" width="25px" height="25px" alt="Postman Logo" title="Postman">](https://www.postman.org/) [<img src="./assets/images/icons/postgresql.svg" width="25px" height="25px" alt="Postgres Logo" title="Postgres">](https://www.postgresql.org/) [<img src="./assets/images/icons/redis.svg" width="25px" height="25px" alt="Redis Logo" title="Redis">](https://redis.io/) [<img src="./assets/images/icons/prometheus.svg" width="25px" height="25px" alt="Prometheus Logo" title="Prometheus">](https://prometheus.io/) [<img src="./assets/images/icons/grafana.svg" width="25px" height="25px" alt="Grafana Logo" title="Grafana">](https://grafana.com/) [<img src="./assets/images/icons/jaeger.svg" width="25px" height="25px" alt="Jaeger Logo" title="Jaeger">](https://www.jaegertracing.io/) [<img src="./assets/images/icons/opentelemetry.svg" width="25px" height="25px" alt="OpenTelemetry Logo" title="OpenTelemetry">](https://www.jaegertracing.io/)
+[<img src="./assets/images/icons/java.svg" width="35px" height="35px" alt="Java Logo" title="Java">](https://www.java.com) [<img src="./assets/images/icons/springboot.svg" width="25px" height="25px" alt="Spring-Boot Logo" title="Spring-Boot">](https://spring.io/projects/spring-boot/) [<img src="./assets/images/icons/docker.svg" width="25px" height="25px" alt="Docker Logo" title="Docker">](https://www.docker.com/) [<img src="./assets/images/icons/ubuntu.svg" width="25px" height="25px Logo" title="Ubunto" alt="Ubunto" />](https://ubuntu.com/) [<img src="./assets/images/icons/github.svg" width="25px" height="25px" alt="GitHub Logo" title="GitHub">](https://github.com/jtonynet) [<img src="./assets/images/icons/postman.svg" width="25px" height="25px" alt="Postman Logo" title="Postman">](https://www.postman.org/) [<img src="./assets/images/icons/postgresql.svg" width="25px" height="25px" alt="Postgres Logo" title="Postgres">](https://www.postgresql.org/) [<img src="./assets/images/icons/redis.svg" width="25px" height="25px" alt="Redis Logo" title="Redis">](https://redis.io/) [<img src="./assets/images/icons/prometheus.svg" width="25px" height="25px" alt="Prometheus Logo" title="Prometheus">](https://prometheus.io/) [<img src="./assets/images/icons/grafana.svg" width="25px" height="25px" alt="Grafana Logo" title="Grafana">](https://grafana.com/) [<img src="./assets/images/icons/jaeger.svg" width="25px" height="25px" alt="Jaeger Logo" title="Jaeger">](https://www.jaegertracing.io/) [<img src="./assets/images/icons/opentelemetry.svg" width="25px" height="25px" alt="OpenTelemetry Logo" title="OpenTelemetry">](https://www.jaegertracing.io/)
 
 
 ![Badge Status](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-green?style=for-the-badge)
@@ -35,14 +35,13 @@
 <a id="about"></a>
 ## :green_book: About:
 
-TODO
-<!-- This project aims to study observability and Site Reliability Engineering (SRE) techniques. The purpose is purely didactic, aiming to achieve modern logging and monitoring techniques.
+This project aims to study observability and Site Reliability Engineering (SRE) techniques. The purpose is purely didactic, aiming to achieve modern logging and monitoring techniques.
 
 For study and historical reasons, I am keeping the volumes of the Docker images that use this feature, committing them together with the codebase.
 
 The base application made in Java Spring was copied from the course repository and the increments for its observation and monitoring built throughout the [course study track](https://cursos.alura.com.br/formacao-sre)
 
-I must implement the knowledge acquired here in my projects and studies -->
+I must implement the knowledge acquired here in my projects and studies
 
 
 [:arrow_heading_up: back to top](#index)
@@ -52,9 +51,14 @@ I must implement the knowledge acquired here in my projects and studies -->
 <a id="run"></a>
 ## :computer: Run the project
 
-TODO
+
+'''bash
+$ docker compose up -d
+'''
+
 ```
-$api-logs mvn spring-boot:run
+$ cd api-logs
+$ api-logs mvn spring-boot:run
 ```
 
 <!--
