@@ -37,7 +37,7 @@
 
 This project aims to study observability and Site Reliability Engineering (SRE) techniques. The purpose is purely didactic, aiming to achieve modern logging and monitoring techniques.
 
-For study and historical reasons, I am keeping the volumes of the Docker images that use this feature, committing them together with the codebase.
+<!--For study and historical reasons, I am keeping the volumes of the Docker images that use this feature, committing them together with the codebase.-->
 
 The base application made in Java Spring was copied from the course repository and the increments for its observation and monitoring built throughout the [course study track](https://cursos.alura.com.br/formacao-sre)
 
@@ -51,12 +51,13 @@ I must implement the knowledge acquired here in my projects and studies
 <a id="run"></a>
 ## :computer: Run the project
 
+This project use `Java 11`
 
-'''bash
+```bash
 $ docker compose up -d
-'''
-
 ```
+
+```bash
 $ cd api-logs
 $ api-logs mvn spring-boot:run
 ```
@@ -112,32 +113,26 @@ To use the Slack integration as seen in the "About" section, it will be necessar
 
 TODO
 
-<!--
+
 - Language:
-  - [Java 1.8](https://www.java.com/pt-BR/)
+  - [Java 1.11](https://www.java.com/pt-BR/)
 
 - Framework & Libs:
-  - [Spring](https://spring.io/)
+  - [Spring-boot](https://spring.io/)
 
 
 - Infra & Technologies
   - [Docker v24.0.6](https://www.docker.com/)
   - [Docker compose v2.21.0](https://www.docker.com/)
   - [MySQL](https://www.mysql.com/)
-  - [Redis](https://redis.io/)
-  - [Prometheus](https://prometheus.io/)
   - [Grafana](https://grafana.com/)
-  - [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/)
 
 
 - GUIs:
   - [VsCode](https://code.visualstudio.com/)
   - [DBeaver](https://dbeaver.io/)
-  - [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager)
-
 
 <br/>
--->
 
 [:arrow_heading_up: back to top](#index)
 
@@ -148,17 +143,16 @@ TODO
 
 TODO
 
-<!--
+
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [keep a changelog](https://keepachangelog.com/en/1.0.0/)
 - [Observability](https://en.wikipedia.org/wiki/Observability_(software)) with:
-  - [Prometheus](https://prometheus.io/docs/guides/go-application/)
-  - [Grafana](https://grafana.com/)
-  - [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/)
+  - [Grafana Loki](https://grafana.com/)
+
 
 
 <br/>
--->
+
 [:arrow_heading_up: back to top](#index)
 
 ---
